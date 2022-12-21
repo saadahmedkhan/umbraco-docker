@@ -1,0 +1,78 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Thursday, 15 September 2022 9:47:18 AM
+   Source : D:\projects\umbraco\base-umbraco\bin\
+     Dest : D:\projects\umbraco\base-umbraco\App_Data\NuGetBackup\20220915-094718\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  48	D:\projects\umbraco\base-umbraco\bin\
+	    New File  		  144384	AutoMapper.dll 90%  100%  
+	    New File  		   28160	AutoMapper.Net4.dll100%  
+	    New File  		  114688	businesslogic.dll100%  
+	    New File  		  151552	ClientDependency.Core.dll 86%  100%  
+	    New File  		   23552	ClientDependency.Core.Mvc.dll100%  
+	    New File  		  512000	cms.dll 25%   51%   76%  100%  
+	    New File  		   51712	controls.dll100%  
+	    New File  		  122880	CookComputing.XmlRpcV2.dll100%  
+	    New File  		   87040	Examine.dll100%  
+	    New File  		  134656	HtmlAgilityPack.dll 97%  100%  
+	    New File  		  200704	ICSharpCode.SharpZipLib.dll 65%  100%  
+	    New File  		  100352	ImageProcessor.dll100%  
+	    New File  		   48128	ImageProcessor.Web.dll100%  
+	    New File  		   24576	interfaces.dll100%  
+	    New File  		  258048	log4net.dll 50%  100%  
+	    New File  		  786432	Lucene.Net.dll 33%   66%  100%  
+	    New File  		   11264	Microsoft.ApplicationBlocks.Data.dll100%  
+	    New File  		   40168	Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll100%  
+	    New File  		    3187	Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml100%  
+	    New File  		   71016	Microsoft.Web.Helpers.dll100%  
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll100%  
+	    New File  		   23640	Microsoft.Web.Mvc.FixedDisplayModes.dll100%  
+	    New File  		  396288	MiniProfiler.dll 33%   66%   99%  100%  
+	    New File  		  391680	MySql.Data.dll 33%   66%  100%  
+	    New File  		  502272	Newtonsoft.Json.dll 26%   52%   78%  100%  
+	    New File  		   19968	SQLCE4Umbraco.dll100%  
+	    New File  		  470240	System.Data.SqlServerCe.dll 27%   55%   83%  100%  
+	    New File  		  240352	System.Data.SqlServerCe.Entity.dll 54%  100%  
+	    New File  		  168520	System.Net.Http.Formatting.dll 77%  100%  
+	    New File  		  138352	System.Web.Helpers.dll 94%  100%  
+	    New File  		  323168	System.Web.Http.dll 40%   81%  100%  
+	    New File  		   73312	System.Web.Http.WebHost.dll100%  
+	    New File  		  506976	System.Web.Mvc.dll 25%   51%   77%  100%  
+	    New File  		  264792	System.Web.Razor.dll 49%   98%  100%  
+	    New File  		   41048	System.Web.WebPages.Deployment.dll100%  
+	    New File  		  204400	System.Web.WebPages.dll 64%  100%  
+	    New File  		   39536	System.Web.WebPages.Razor.dll100%  
+	    New File  		  192512	TidyNet.dll 68%  100%  
+	    New File  		   1.8 m	Umbraco.Core.dll 13%   27%   40%   54%   67%   81%   94%  100%  
+	    New File  		   38912	umbraco.DataLayer.dll100%  
+	    New File  		   1.7 m	umbraco.dll 14%   28%   42%   57%   71%   85%   99%  100%  
+	    New File  		  372736	umbraco.editorControls.dll 35%   70%  100%  
+	    New File  		  131072	umbraco.MacroEngines.dll100%  
+	    New File  		   37888	umbraco.providers.dll100%  
+	    New File  		   57344	Umbraco.Web.UI.dll100%  
+	    New File  		   78336	umbraco.XmlSerializers.dll100%  
+	    New File  		   34304	UmbracoExamine.dll100%  
+	    New File  		   22528	UrlRewritingNet.UrlRewriter.dll100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :        48        48         0         0         0         0
+   Bytes :   10.96 m   10.96 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           460,059,320 Bytes/sec.
+   Speed :            26,324.805 MegaBytes/min.
+   Ended : Thursday, 15 September 2022 9:47:18 AM
+

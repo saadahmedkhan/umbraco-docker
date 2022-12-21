@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  db:
+    container_name: umbraco-db
+    #image: mssql-server-windows
+    build:
+      context: ./base-sql
+      dockerfile: Dockerfile
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./base-sql/data/:c:/mssql/
+    environment:
+      - sa_password=tempPassSaad1@
+      - ACCEPT_EULA=Y
+    restart: always
+    networks:
+      - umbraco-network
+  
+  web:
+    container_name: umbraco-web
+    build:
+      context: ./base-umbraco
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    restart: unless-stopped
+    networks:
+      - umbraco-network
+
+networks:
+  umbraco-network: null
